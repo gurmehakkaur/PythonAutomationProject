@@ -2,5 +2,5 @@ Flask
 pandas
 openpyxl
 gunicorn
-request
+requests
 render_template
