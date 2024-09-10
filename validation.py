@@ -1,7 +1,9 @@
 import pandas as pd
 
-# Loading the bank data from CSV file
-df = pd.read_csv('data.csv', sep=';')
+print('\n\n\n*******Data validation occurring********\n\n')
+
+# Adjust the separator based on your CSV file format
+df = pd.read_csv('data.csv', sep=';')  # Use ',' or ';' based on your actual data
 
 # Converting age column to numeric, coercing errors
 df['age'] = pd.to_numeric(df['age'], errors='coerce')
@@ -19,7 +21,7 @@ if (df['age'] < 18).any() or (df['age'] > 100).any():
     print("Data contains invalid age values.")
 else:
     print("All ages are within the valid range (18-100).")
-    
+
 # Validation: Checking for valid balance values (assuming balance should be non-negative)
 if (df['balance'] < 0).any():
     print("Data contains invalid balance values (negative balances).")
