@@ -1,0 +1,35 @@
+Age Distribution Analysis:
+The average age of bank customers is 41.17 years.
+Minimum age: 19, Maximum age: 87.
+
+Job Type Distribution Analysis:
+job
+management       969
+blue-collar      946
+technician       768
+admin.           478
+services         417
+retired          230
+self-employed    183
+entrepreneur     168
+unemployed       128
+housemaid        112
+student           84
+unknown           38
+
+This shows the count of customers per job type.
+
+Average Balance by Marital Status Analysis:
+marital
+divorced    1122.390152
+married     1463.195567
+single      1460.414716
+
+This shows the average balance of customers based on their marital status.
+
+Campaign Success Rate Analysis:
+
+no     4000
+yes     521
+
+This shows the number of successful and unsuccessful campaign outcomes.
